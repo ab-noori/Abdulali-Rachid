@@ -6,14 +6,20 @@ body {
   #navbar {
     float: right;
     color: #f2f2f2;
-    text-align: center;
+    text-align: right;
     width: 100%;
     overflow: hidden;
     position: fixed;
     background-color: rgb(220, 7, 7);
     padding: 14px 16px;
-    text-decoration: none;
     font-size: 17px;
+  }
+
+  #navbar a{
+    font-size: 2.2rem;
+    padding: 2rem;
+    text-decoration: none;
+    color: white;
   }
   
   #navbar a:hover {
@@ -26,10 +32,6 @@ body {
     color: white;
   }
 
-#welcome-section{
-    width: 100%;
-    height: 100vh;
-  }
   
   @media screen and (max-width: 600px){
   
@@ -62,6 +64,22 @@ h1, h2 {
   font-weight: 200;
   font-style: italic;
   color: red;
+}
+
+#projects{
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    padding: 10rem 2rem;
+    background-color: #45567d;
+}
+
+#contact{
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    padding: 10rem 2rem;
+    background-color: #303841;
 }
 
 
