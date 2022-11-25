@@ -4,17 +4,13 @@ body {
   }
 
   #navbar {
-    overflow: hidden;
-    position: fixed;
-    background-color: #333;
-    top: 0;
-  }
-
-  #navbar {
     float: right;
     color: #f2f2f2;
     text-align: center;
     width: 100%;
+    overflow: hidden;
+    position: fixed;
+    background-color: rgb(220, 7, 7);
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
