@@ -1,0 +1,14 @@
+#welcome-section{
+    width: 100%;
+    height: 100vh;
+  }
+  
+  @media screen and (max-width: 600px){
+  
+  }
+  
+  #navbar {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+  }
