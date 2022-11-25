@@ -106,6 +106,10 @@ h1, h2 {
     text-align: center;
     padding: 10rem 2rem;
     background-color: #303841;
+    color: white;
 }
 
+.contact-link{
+  color: white;
+}
 
